@@ -18,6 +18,15 @@ const data = [
     imageProfile: "https://i.pinimg.com/736x/35/1c/d5/351cd5ccf456bd73dbd7830ada064f46.jpg",
     author: "Alice DUBRAKMAR",
     date: "04/01/2025"
+  },
+
+  {
+    imageStory: "https://img.freepik.com/vecteurs-libre/modele-couverture-album-degrade_23-2150597431.jpg",
+    storyName: "Nom de l'anecdote #3",
+    story: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat eius nam voluptatibus asperiores ducimus quia optio facilis accusamus quisquam, expedita doloribus nulla vitae deleniti.",
+    imageProfile: "https://i.pinimg.com/736x/35/1c/d5/351cd5ccf456bd73dbd7830ada064f46.jpg",
+    author: "Alice DUBRAKMAR",
+    date: "03/01/2025"
   }
 ];
 
