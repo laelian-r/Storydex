@@ -30,8 +30,8 @@
 
       <?php
         require_once './pages/class/MyStorydex.class.php';
-        $myStorydex = new MyStorydex(1, 1, 'image', 'title', 'content', 'author', 'date');
-        $myStorydex->setPost(
+        $story = new MyStorydex(1, 1, 'image', 'title', 'content', 'author', 'date');
+        $story->setPost(
           'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c08d8e88899493.5eb55618dcf81.jpg', 
           'Nom de l\'histoire', 
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat eius nam voluptatibus asperiores ducimus quia optio facilis accusamus quisquam, expedita doloribus nulla vitae deleniti.',
@@ -57,14 +57,18 @@
 
         <article id="article">
           <figure class="image-wrapper">
-            <img src="<?php $myStorydex->getImage() ?>" alt="" />
+            <img src="<?php $story->getImage() ?>" alt="" />
           </figure>
           <div class="content">
-            <h2><?php $myStorydex->getTitle() ?></h2>
-            <p class="resume"><?php $myStorydex->getContent() ?></p>
-                  
+            <h2><?php $story->getTitle() ?></h2>
+            <p class="resume"><?php $story->getContent() ?></p>
+
             <div class="profile">
-              <p class="date"><?php $myStorydex->getDate() ?></p>
+              <img src="https://scx2.b-cdn.net/gfx/news/hires/2018/2-detectingfak.jpg" class="pp" alt="Image profile">
+              <div>
+                <a href="" class="name">Jade MADISON</a>
+                <p class="date">12/05/2024</p>
+              </div>
             </div><br>
 
             <div class="link">
