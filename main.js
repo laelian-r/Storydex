@@ -9,6 +9,15 @@ const data = [
     imageProfile: "https://scx2.b-cdn.net/gfx/news/hires/2018/2-detectingfak.jpg",
     author: "Jade MADISON",
     date: "12/05/2024"
+  },
+
+  {
+    imageStory: "https://i.pinimg.com/originals/41/fc/7c/41fc7c51d5d26ff77cc0f7c80d870ee1.png",
+    storyName: "Nom de l'anecdote #2",
+    story: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat eius nam voluptatibus asperiores ducimus quia optio facilis accusamus quisquam, expedita doloribus nulla vitae deleniti.",
+    imageProfile: "https://i.pinimg.com/736x/35/1c/d5/351cd5ccf456bd73dbd7830ada064f46.jpg",
+    author: "Alice DUBRAKMAR",
+    date: "04/01/2025"
   }
 ];
 
